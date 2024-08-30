@@ -4,6 +4,10 @@
   pointer-events: none;
 }
 
+* {
+  border: 0;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
@@ -70,22 +74,89 @@ ul li a:hover {
 
 .hero-h1 {
   font-family: "Baskervville SC", serif;
-  max-width: 50%;
+  text-align: center;
   line-height: 8rem;
   margin-inline: 35px;
-  margin-top: 8%;
+  margin-top: 3rem;
   letter-spacing: 18px;
   color: rgb(158, 158, 171);
 }
 
 .hero-pgh {
-  max-width: 44%;
   font-size: 34px;
-  text-align: justify;
+  text-align: center;
   line-height: 5rem;
-  margin-inline: 35px;
+  margin-inline: 55px;
   letter-spacing: 1px;
   
   margin-top: 0;
   font-family: "Vollkorn", serif;
+}
+
+.services-section {
+  background: rgb(228, 232, 255);
+}
+
+.services-section h2 {
+  color: rgb(158, 158, 171);
+  text-align: center;
+  font-family: "Vollkorn", serif;
+}
+
+.services-wrapper {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  margin-inline: 35px;
+}
+
+.service-box {
+  padding-inline: 25px;
+}
+
+.service-h2 {
+  color: black;
+}
+
+.service-pgh {
+  color: grey;
+  text-align: justify;
+}
+
+.summary {
+  font-family: "Baskervville SC", serif;
+  text-align: center;
+  margin-inline: 35px;
+  letter-spacing: 5px;
+}
+
+.jjj {
+  background-color: rgba(1, 21, 60, 0.705);
+}
+
+.footer {
+  background: rgb(1, 18, 49);
+  display: flex;
+  gap: 5rem;
+  justify-content: space-between;
+}
+
+.footer h2 {
+  margin-left: 35px;
+  color: white;
+  text-decoration: none;
+}
+
+.footer a {
+  text-decoration: none;
+}
+
+.footer div {
+  margin-right: 15%;
+  justify-content: center;
+}
+
+.footer div ul {
+  list-style: none;
+  display: grid;
+  gap: 20px;
 }
