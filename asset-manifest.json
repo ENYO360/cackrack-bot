@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/cackrack-bot/static/css/main.6e18b69f.css",
-    "main.js": "/cackrack-bot/static/js/main.5539e68b.js",
+    "main.js": "/cackrack-bot/static/js/main.e9fdcb4e.js",
     "static/js/453.0e098993.chunk.js": "/cackrack-bot/static/js/453.0e098993.chunk.js",
     "static/media/cyber-bg.jpg": "/cackrack-bot/static/media/cyber-bg.b36f03de7164faa0db5a.jpg",
     "index.html": "/cackrack-bot/index.html",
     "main.6e18b69f.css.map": "/cackrack-bot/static/css/main.6e18b69f.css.map",
-    "main.5539e68b.js.map": "/cackrack-bot/static/js/main.5539e68b.js.map",
+    "main.e9fdcb4e.js.map": "/cackrack-bot/static/js/main.e9fdcb4e.js.map",
     "453.0e098993.chunk.js.map": "/cackrack-bot/static/js/453.0e098993.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6e18b69f.css",
-    "static/js/main.5539e68b.js"
+    "static/js/main.e9fdcb4e.js"
   ]
 }
