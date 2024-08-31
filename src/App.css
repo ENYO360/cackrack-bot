@@ -22,7 +22,7 @@
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  font-size: calc(10px + 2vmin);
+  
   color: white;
 }
 
@@ -46,8 +46,72 @@ nav {
   background: white;
 }
 
+@media all and (max-width: 780px) {
+  nav {
+    position: fixed;
+    width: 100%;
+    padding-inline: 10px;
+  }
+}
+
+#hamburger, #toggle-close {
+  display: none;
+  width: max-content;
+  height: max-content;
+  background: none;
+  border: none;
+}
+
+#hamburger:hover {
+  cursor: pointer;
+}
+
+#toggle-close:hover {
+  cursor: pointer;
+}
+
+@media all and (max-width: 780px) {
+  #hamburger {
+      display: block;
+      position: fixed;
+      z-index: 999;
+      right: 20px;
+      top: 20px;
+  }
+  #toggle-close {
+      display: none;
+      position: fixed;
+      z-index: 999;
+      right: 10px;
+      top: 20px;
+  }
+
+  .show-hamburger {
+    display: block;
+  }
+
+  .hide-hamburger {
+    display: none;
+  }
+}
+
+nav div {
+  display: flex;
+  align-items: end;
+}
+
+nav div img {
+  
+}
+
 nav a {
   text-decoration: none;
+}
+
+@media all and (max-width: 780px) {
+  nav a {
+    
+  }
 }
 
 nav h2 {
@@ -60,6 +124,18 @@ nav ul {
   list-style: none;
   padding-right: 35px;
   align-items: center;
+}
+
+@media all and (max-width: 780px) {
+  nav ul {
+    display: none;
+    gap: 20px;
+    padding-right: 0px;
+  }
+
+  .showNav {
+    display: flex;
+  }
 }
 
 ul li a {
@@ -82,16 +158,32 @@ ul li a:hover {
   color: rgb(158, 158, 171);
 }
 
+@media all and (max-width: 780px) {
+   .hero-h1 {
+      font-size: 20px;
+      line-height: 4rem;
+      margin-top: 20%;
+  }
+}
+
 .hero-pgh {
   font-size: 34px;
   text-align: center;
   line-height: 5rem;
   margin-inline: 55px;
   letter-spacing: 1px;
-  
   margin-top: 0;
   font-family: "Vollkorn", serif;
 }
+
+@media all and (max-width: 780px) {
+  .hero-pgh{
+    font-size: 18px;
+    line-height: 2.5rem;
+    letter-spacing: 2px;
+  }
+}
+
 
 .services-section {
   background: rgb(228, 232, 255);
@@ -103,11 +195,27 @@ ul li a:hover {
   font-family: "Vollkorn", serif;
 }
 
+@media all and (max-width: 780px) {
+ .services-section h2 {
+    font-size: 20px;
+  }
+}
+
+
 .services-wrapper {
   display: grid;
   grid-template-columns: 50% 50%;
   margin-inline: 35px;
 }
+
+@media all and (max-width: 780px) {
+  .services-wrapper {
+    display: grid;
+    grid-template-columns: 100%;
+    margin-inline: 10px;
+  }
+}
+
 
 .service-box {
   padding-inline: 25px;
@@ -117,17 +225,42 @@ ul li a:hover {
   color: black;
 }
 
+@media all and (max-width: 780px) {
+ .service-h2 {
+    font-size: 16px;
+    text-align: center;
+  }
+}
+
+
 .service-pgh {
   color: grey;
   text-align: justify;
 }
 
+@media all and (max-width: 780px) {
+  .service-pgh {
+    text-align: justify;
+    font-size: 16px;
+  }
+}
+
+
 .summary {
   font-family: "Baskervville SC", serif;
   text-align: center;
   margin-inline: 35px;
-  letter-spacing: 5px;
+  letter-spacing: 2px;
 }
+
+@media all and (max-width: 780px) {
+  .summary{
+    margin-inline: 10px;
+    letter-spacing: 2px;
+    font-size: 18px;
+  }
+}
+
 
 .jjj {
   background-color: rgba(1, 21, 60, 0.705);
@@ -140,11 +273,28 @@ ul li a:hover {
   justify-content: space-between;
 }
 
+@media all and (max-width: 780px) {
+ .footer {
+    display: grid;
+    gap: 0.1rem;
+    justify-content: center;
+  }
+}
+
+
 .footer h2 {
   margin-left: 35px;
   color: white;
   text-decoration: none;
+  font-weight: 900;
 }
+
+@media all and (max-width: 780px) {
+  .footer h2{
+    margin-left: 0;
+  }
+}
+
 
 .footer a {
   text-decoration: none;
@@ -155,8 +305,21 @@ ul li a:hover {
   justify-content: center;
 }
 
+@media all and (max-width: 780px) {
+  .footer div {
+    margin-right: 0;
+  }
+}
+
+
 .footer div ul {
   list-style: none;
   display: grid;
   gap: 20px;
+}
+
+.footer div ul li a {
+  display: flex;
+  gap: 30px;
+  color: grey;
 }

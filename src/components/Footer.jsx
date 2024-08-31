@@ -7,8 +7,18 @@ export default function Footer() {
                 <div>
                     <h4>You can contact us through:</h4>
                     <ul>
-                        <li><a href="mailto:calcecrack@gmail.com">calcecrack@gmail.com</a></li>
-                        <li><img src="icons8-facebook-48.png" alt="cyber-bg.jpg" width="80" height="80"/></li>
+                        <li>
+                            <a href="mailto:calcecrack@gmail.com">
+                                <img src="gmail-icon.svg" alt="" width="50"/>
+                                <p>calcecrack@gmail.com</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="icons8-facebook-48.png" alt="cyber-bg.jpg" width="50" height="50"/>
+                                <p>Cackcrackk</p>
+                            </a>
+                        </li>
                     </ul>
                 </div>
             </div>
