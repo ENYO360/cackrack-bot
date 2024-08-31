@@ -16,7 +16,7 @@ export default function Footer() {
                         <li>
                             <a href="#">
                                 <img src="icons8-facebook-48.png" alt="cyber-bg.jpg" width="50" height="50"/>
-                                <p>Cackcrackk</p>
+                                <p>@Cackcrackk</p>
                             </a>
                         </li>
                     </ul>

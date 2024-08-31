@@ -88,9 +88,18 @@ nav {
 
   .show-hamburger {
     display: block;
+    
   }
 
   .hide-hamburger {
+    display: none;
+  }
+
+  .show-close {
+    display: block;
+  }
+
+  .hide-close {
     display: none;
   }
 }
@@ -222,7 +231,12 @@ ul li a:hover {
 }
 
 .service-h2 {
-  color: black;
+  color: white;
+  text-align: center;
+  background-color: rgba(10, 2, 47, 0.912);
+  padding-inline: 20px;
+  padding-block: 15px;
+  border-radius: 100vh;
 }
 
 @media all and (max-width: 780px) {
