@@ -9,13 +9,13 @@ export default function Footer() {
                     <ul>
                         <li>
                             <a href="mailto:calcecrack@gmail.com">
-                                <img src="gmail-icon.svg" alt="" width="50"/>
+                                <img src="gmail-icon.svg" alt="" width="50" />
                                 <p>calcecrack@gmail.com</p>
                             </a>
                         </li>
                         <li>
                             <a href="#">
-                                <img src="icons8-facebook-48.png" alt="cyber-bg.jpg" width="50" height="50"/>
+                                <img src="icons8-facebook-48.png" alt="cyber-bg.jpg" width="50" height="50" />
                                 <p>@Cackcrackk</p>
                             </a>
                         </li>
